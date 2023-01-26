@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    
+      <link rel="stylesheet" href="/src/css/reset.css">
+      <link rel="stylesheet" href="/src/css/estilo.css">
+      <link rel="stylesheet" href="/src/css/responsivo.css">
+
+
+    <title>Super mario bros - o filme</title>
+</head>
+<body>
+
+
+    <div class="fundo-video" >
+        <video class="video" autoplay loop muted>
+            <source src="/src/video/video-mario.mp4" type="video/mp4" >
+        </video>
+    </div>
+   
+     
+    <header class="cabecalho"> 
+       <a>
+        <img class="logo" src="/src/imagens/logo-chapeu-mario.png" alt="logo-chapéu-mario">
+       </a>
+       <nav>
+         <ul class="menu">
+            <li> <a href="https://www.youtube.com/watch?v=dAOaLslkBOc">inicio</a></li>
+            <li> <a href="https://www.youtube.com/watch?v=8d2nqgUXXhQ">home</a></li>
+            <li> <a href="https://www.youtube.com/watch?v=WcIcVapfqXw">detalhes</a></li>
+         </ul>
+       </nav>
+          
+    </header>
+    <main class="container">
+        <div class="informacoes">
+             <img class="imagem-titulo" src="/src/imagens/titulo.png" alt="imagens do titulo do filme">
+             <p class="descricao" >Lorem o que e o que e clara salgada pesa uma tolelada tem  cor do mar, diz homem nao chora valeu mario rogerio freita ,caroline bento, sem-pai quem você
+
+               </p>
+        
+                  
+                <a href="src/video/video-mario.mp4" button  class="botao-trailer"  > veja o trailer</a></button> 
+        
+          </div>
+           <img class="mario" src="/src/imagens/super-mario-chars.png" alt="mario">
+        
+            <div class="modal">
+                <div class="conteudo-modal">
+                    <span class="fechar-modal">x</span>
+                    <iframe id="video" width="560" height="315" src="./src/video/video-mario.mp4" title="trailer oficial"  frameborder="1" allow="accelerometer; autoplay; clipboard-wrte; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+
+            </div>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+    
+</body>
+</html>
